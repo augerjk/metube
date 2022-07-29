@@ -1,0 +1,48 @@
+.button-toggle-theme:focus, .button-toggle-theme:active
+    box-shadow: none
+    outline: 0px
+
+.add-url-box
+    max-width: 720px
+    margin: 4rem auto
+
+.add-url-component
+    margin: 0.5rem auto
+
+button.add-url
+    width: 100%
+
+$metube-section-color-bg: rgba(0,0,0,.07)
+
+.metube-section-header
+    font-size: 1.8rem
+    font-weight: 300
+    position: relative
+    background: $metube-section-color-bg
+    padding: 0.5rem 0
+    margin-top: 3.5rem
+
+.metube-section-header:before
+    content: ""
+    position: absolute
+    top: 0
+    bottom: 0
+    left: -9999px
+    right: 0
+    border-left: 9999px solid $metube-section-color-bg
+    box-shadow: 9999px 0 0 $metube-section-color-bg
+
+button:hover
+    text-decoration: none
+
+th
+    border-top: 0
+    border-bottom-width: 3px !important
+    vertical-align: middle !important
+
+td
+    vertical-align: middle
+
+.disabled
+    opacity: 0.5
+    pointer-events: none
